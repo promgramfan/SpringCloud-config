@@ -6,14 +6,14 @@
 spring:
   profiles: dev #开发环境
   application:
-    name: ms-config-dev
+    name: gitHub-config-dev
 server: 
-  port: 1110
+  port: 1111
 
 ---
 spring:
   profiles: test #测试环境
   application:
-    name: ms-config-test
+    name: gitHub-config-test
 server: 
   port: 2222
